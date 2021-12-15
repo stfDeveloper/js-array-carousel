@@ -1,6 +1,6 @@
-.anteprima{
-    max-height: 500px;
-    position: relative;
+.slide{
+    width: 1080px;
+    height: 500px;;
 }
 .thumb{
     max-height: 500px;
@@ -13,15 +13,18 @@ img{
    width: 100%;
 }
 .up{
+    cursor: pointer;
     position: absolute;
     top: 0;
     left: 45%;
     color: white;
+    font-size: 20px;
 }
 .down{
+    cursor: pointer;
     position: absolute;
     bottom: 0;
     left: 45%;
     color: white;
-
+    font-size: 20px;
 }
