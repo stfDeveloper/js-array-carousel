@@ -1,0 +1,27 @@
+.anteprima{
+    max-height: 500px;
+    position: relative;
+}
+.thumb{
+    max-height: 500px;
+    position: relative;
+} 
+.thumb img{
+ height: 100px;
+}
+img{
+   width: 100%;
+}
+.up{
+    position: absolute;
+    top: 0;
+    left: 45%;
+    color: white;
+}
+.down{
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    color: white;
+
+}

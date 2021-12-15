@@ -5,6 +5,16 @@ const items = [
     'img/04.jpg',
     'img/05.jpg'
 ];
+let itemsContent = "";
+let elementActive = 0;
+
+for (let i=0; i< items.length; i++){
+    itemsContent += `
+    <div class= "item" id="item-${i}"
+        <img src "${items[i]}">
+    </div>`;
+
+}
 
 const title = [
     'Svezia',
